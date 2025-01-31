@@ -23,7 +23,7 @@ This project is a movie recommendation system that suggests movies based on user
 This script prepares data, trains the recommendation model, and saves processed data for later use.
 
 ### **Steps in model_training.py**
-1️⃣ Load the MovieLens dataset
+1️⃣ Load the Movie Recommendation System dataset
 
 Reads movies.csv (movie titles) and ratings.csv (user ratings).
 
