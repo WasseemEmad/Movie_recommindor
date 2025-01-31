@@ -18,11 +18,11 @@ This project is a movie recommendation system that suggests movies based on user
 ✔ Processes the MovieLens dataset for recommendations.
 
 # 2. **Code Breakdown**
-📌 movie_recommindation.py – Model Training & Preprocessing
+## **movie_recommindation.py – Model Training & Preprocessing**
 
 This script prepares data, trains the recommendation model, and saves processed data for later use.
 
-## **Steps in model_training.py**
+### **Steps in model_training.py**
 1️⃣ Load the MovieLens dataset
 
 Reads movies.csv (movie titles) and ratings.csv (user ratings).
@@ -67,11 +67,11 @@ Prints the top 6 closest movies based on similarity.
 
 Stores the trained model and processed data using pickle.
 
-📌 app.py – Streamlit Web Application
+## **app.py – Streamlit Web Application**
 
 This script loads the trained model and provides an interactive interface where users can select a movie and receive recommendations.
 
-## **Steps in app.py**
+### **Steps in app.py**
 
 1️⃣ Load Required Libraries
 
