@@ -4,24 +4,25 @@
 This project implements a Machine Learning-based Movie Recommender System using Collaborative Filtering and K-Nearest Neighbors (KNN). The system consists of two main components:
 
 1️⃣ Model Training (movie_recommindation.ipynb) → Prepares the dataset, trains the recommendation model, and saves processed data.
+
 2️⃣ Web Application (app.py) → Loads the trained model and provides an interactive interface for users to get movie recommendations.
 
-1. # **Project Overview**
+# 1. **Project Overview**
 This project is a movie recommendation system that suggests movies based on user preferences. It applies collaborative filtering, where recommendations are made based on user ratings.
 
-✨ ## **Features**
+## **Features**
 ✔ Uses KNN (K-Nearest Neighbors) for collaborative filtering.
 ✔ Suggests movies similar to a given movie.
 ✔ Fetches movie posters dynamically from TMDb & OMDb APIs.
 ✔ Provides an interactive UI using Streamlit.
 ✔ Processes the MovieLens dataset for recommendations.
 
-2. # **Code Breakdown**
+# 2. **Code Breakdown**
 📌 movie_recommindation.py – Model Training & Preprocessing
 
 This script prepares data, trains the recommendation model, and saves processed data for later use.
 
-🛠 ## **Steps in model_training.py**
+## **Steps in model_training.py**
 1️⃣ Load the MovieLens dataset
 
 Reads movies.csv (movie titles) and ratings.csv (user ratings).
@@ -70,7 +71,7 @@ Stores the trained model and processed data using pickle.
 
 This script loads the trained model and provides an interactive interface where users can select a movie and receive recommendations.
 
-🛠 ## **Steps in app.py**
+## **Steps in app.py**
 
 1️⃣ Load Required Libraries
 
